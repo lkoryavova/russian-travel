@@ -1,3 +1,6 @@
 .lead__image {
-   min-Width: 928px;
+   margin: 0;
+   Width: 100%;
+/* object-fit: cover; */
+border: 1px solid red;
 }

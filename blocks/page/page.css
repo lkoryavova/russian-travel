@@ -1,9 +1,13 @@
 .page {
-    max-width: 1600px;
+    width: 100%;
+    max-width: 1280px;
     /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;
     /* выше для экранов больше 1600px отцентрировали весь контент */
     font-family: Inter, Arial, sans-serif;
     background-color: #2A2C2F;
     padding: 28px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
