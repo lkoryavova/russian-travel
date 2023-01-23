@@ -1,0 +1,11 @@
+.places {
+    padding-top: 92px;
+    padding-bottom: 92px;
+    max-width: 984px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 80px;
+    border: 1px solid red;
+}
