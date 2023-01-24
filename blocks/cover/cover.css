@@ -1,7 +1,7 @@
 .cover {
+    margin: 0 auto;
     width: 100%;
-    background-image: url("../../images/sprint-3-images/cover-trains.jpg");
-    background-position: center;
-    background-size: cover;
-    z-index: 0;
+    max-width: 1184px;
+    display: grid;
+    border: 1px solid red;
 }
