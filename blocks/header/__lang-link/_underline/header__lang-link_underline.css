@@ -1,0 +1,7 @@
+.header__lang-link_underline {
+    text-decoration: none;
+}
+
+.header__lang-link_underline:hover {
+    opacity: 0.5;
+}

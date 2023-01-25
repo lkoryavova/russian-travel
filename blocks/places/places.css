@@ -7,5 +7,14 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 80px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+@media all and (max-width: 320px) {
+    .places {
+       margin: 0;
+        padding: 64px 0;
+       max-width: 288px;
+       row-gap: 50px;
+    }
 }
