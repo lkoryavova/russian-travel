@@ -3,5 +3,11 @@
     width: 100%;
     max-width: 1184px;
     display: grid;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+@media all and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+    }
 }

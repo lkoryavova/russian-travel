@@ -5,7 +5,5 @@
 @media all and (max-width: 320px) {
     .place__image {
        Width: 100%;
-       /* max-width: 320px; */
-        object-fit: cover;
     }
  } 

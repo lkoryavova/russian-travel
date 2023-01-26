@@ -6,7 +6,6 @@
 
 @media all and (max-width: 320px) {
    .lead__image {
-      Width: 100%;
       max-width: 320px;
        object-fit: cover;
    }
