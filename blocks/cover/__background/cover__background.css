@@ -6,10 +6,3 @@
     object-fit: cover;
     z-index: 0;
 }
-
-@media all and (max-width: 320px) {
-  .cover__background {
-     /* grid-template-columns: 1fr; */
-     max-width: 320px;
-  }
-}

@@ -18,3 +18,9 @@ color: #FFFFFF;
         line-height: 1.25;
     }
 } 
+
+@media all and (min-width: 1280px) {
+    .lead__subtitle {
+        margin: 0 auto 64px;
+    }
+} 
