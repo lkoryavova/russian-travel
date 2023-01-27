@@ -17,3 +17,11 @@
         row-gap: 25px;
     }
 }
+
+@media all and (max-width: 768px) {
+    .places {
+        width: auto;
+        padding: 88px 24px 90px;
+        row-gap: 73px;
+    }
+}

@@ -16,3 +16,9 @@ color: #FFFFFF;
        margin-left: 16px;
     }
 }
+
+@media all and (max-width: 768px) {
+    .lead__caption {
+       margin-left: 24px;
+    }
+}

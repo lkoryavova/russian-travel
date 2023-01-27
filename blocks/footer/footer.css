@@ -18,3 +18,11 @@
         justify-content: baseline;
     }
 }
+
+@media all and (max-width: 768px) {
+    .footer {
+        margin: 0;
+        width: auto;
+        padding: 88px 24px 24px;
+    }
+}

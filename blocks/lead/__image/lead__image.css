@@ -10,3 +10,10 @@
        object-fit: cover;
    }
 } 
+
+@media all and (max-width: 768px) {
+   .lead__image {
+      max-width: 768px;
+       object-fit: cover;
+   }
+} 

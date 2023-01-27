@@ -13,3 +13,9 @@
        row-gap: 32px;
     }
 }
+
+@media all and (max-width: 768px) {
+    .place {
+       column-gap: 28px;
+    }
+}

@@ -17,3 +17,9 @@ color: #FFFFFF;
         max-width: 288px;
     }
 } 
+
+@media all and (max-width: 768px) {
+    .intro__text {
+        margin-bottom: 34px;
+    }
+} 
