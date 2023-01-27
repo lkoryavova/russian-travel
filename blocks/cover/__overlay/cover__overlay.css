@@ -6,3 +6,8 @@
     grid-column: 1;
     grid-row: 1;
 }
+
+.cover__overlay:hover {
+    opacity: 0.5;
+}
+

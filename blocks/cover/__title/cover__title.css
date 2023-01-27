@@ -9,7 +9,13 @@
     line-height: 1.06;
     text-align: center;
     color: #FFFFFF;
+    text-decoration: none;
 }
+
+.cover__title:hover {
+    color: rgba(0,0,0,0.5);
+}
+
 
 @media all and (max-width: 320px) {
     .cover__title {
