@@ -1,6 +1,6 @@
 .intro {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     max-width: 984px;
     padding: 92px 0;
     display: flex;
@@ -9,14 +9,18 @@
     /* border: 1px solid red; */
 }
 
-@media all and (max-width: 320px) {
-    .intro {
-       padding: 64px 16px;
-    }
-}
 
 @media all and (max-width: 768px) {
     .intro {
        padding: 88px 24px;
+       max-width: 720px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .intro {
+       padding: 64px 16px;
+       max-width: 288px;
     }
 }
