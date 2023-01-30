@@ -11,8 +11,6 @@
 
 @media all and (max-width: 768px) {
     .footer {
-        margin: 0;
-        width: auto;
         padding: 88px 24px 24px;
     }
 }
@@ -21,7 +19,6 @@
     .footer {
         max-width: 186px;
         padding: 64px 118px 24px 16px;
-        display: flex;
         flex-direction: column;
         justify-content: baseline;
     }
