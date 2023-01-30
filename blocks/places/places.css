@@ -3,8 +3,7 @@
     width: auto;
     max-width: 984px;
     margin: 0 auto;
-    padding-top: 92px;
-    padding-bottom: 92px;
+    padding: 92px 48px;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 80px;
@@ -18,7 +17,7 @@
 }
 @media all and (max-width: 320px) {
     .places {
-        padding: 64px 0 48px;
-        row-gap: 25px;
+        padding: 64px 0 66px;
+        row-gap: 50px;
     }
 }

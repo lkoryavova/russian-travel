@@ -11,14 +11,14 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
-@media all and (max-width: 320px) {
-    .lead__caption {
-       margin-left: 16px;
-    }
-}
-
 @media all and (max-width: 768px) {
     .lead__caption {
        margin-left: 24px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .lead__caption {
+       margin-left: 16px;
     }
 }

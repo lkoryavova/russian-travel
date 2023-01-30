@@ -2,10 +2,22 @@
     width: 100%;
     width: auto;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 48px;
     max-width: 984px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* border: 1px solid red; */
 }
+
+@media all and (max-width: 768px) {
+    .lead {
+    padding: 0;
+    }
+} 
+
+@media all and (max-width: 320px) {
+    .lead {
+        padding: 0;
+    }
+} 
