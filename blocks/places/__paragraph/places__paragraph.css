@@ -6,13 +6,7 @@
 }
 
 @media all and (max-width: 768px) {
-    .place__paragraph {
+    .places__paragraph {
         row-gap: 25px;
     }
     }
-
-@media all and (max-width: 320px) {
-.place__paragraph {
-    row-gap: 25px;
-}
-}
