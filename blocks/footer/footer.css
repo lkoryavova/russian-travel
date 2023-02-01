@@ -6,7 +6,6 @@
     padding: 92px 48px 0;
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
 }
 
 @media all and (max-width: 768px) {
