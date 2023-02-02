@@ -1,5 +1,6 @@
 .intro {
     width: 100%;
+    /* width: auto; */
     margin: 0 auto;
     max-width: 928px;
     padding: 92px 0;
@@ -8,17 +9,17 @@
     justify-content: left;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .intro {
-       padding: 88px 24px;
-       max-width: 720px;
+       padding: 88px 0;
+    /* max-width: 720px; */
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .intro {
-       padding: 64px 16px;
-       max-width: 288px;
+       padding: 64px 0;
+       /* max-width: 288px; */
     }
 }
 

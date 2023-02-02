@@ -1,26 +1,20 @@
 .header {
     width: 100%;
-    width:auto;
+    width: auto;
     padding: 0 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .header {
         padding: 28px 24px 0;
     }
 } 
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .header {
         padding: 16px 16px 0;
     }
 } 
-
-@media screen and (min-width: 1280px) {
-    .header {
-       padding: 0;
-    }
-}

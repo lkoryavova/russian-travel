@@ -1,7 +1,7 @@
 .places {
     width: 100%;
-    width: auto;
-    max-width: 984px;
+    /* width: auto; */
+    max-width: 928px;
     margin: 0 auto;
     padding: 92px 48px;
     display: grid;
@@ -9,15 +9,23 @@
     row-gap: 80px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .places {
         padding: 88px 24px 90px;
         row-gap: 73px;
+        max-width: 720px;
     }
 }
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .places {
         padding: 64px 0 66px;
         row-gap: 50px;
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .places {
+      max-width: 984px;
+    }
+  }
+

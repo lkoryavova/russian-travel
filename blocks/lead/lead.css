@@ -1,16 +1,22 @@
 .lead {
     width: 100%;
-    width: auto;
+    /* width: auto; */
     margin: 0 auto;
     padding: 0 48px;
-    max-width: 984px;
+    max-width: 928px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .lead {
     padding: 0;
     }
 } 
+
+@media screen and (min-width: 1280px) {
+    .lead {
+      max-width: 984px;
+    }
+  }

@@ -1,5 +1,6 @@
 .cover__text {
-    width: 100%;
+    /* width: 100%; */
+    width: auto;
     grid-column: 1;
     grid-row: 1;
     display: flex;
@@ -8,14 +9,16 @@
     align-items: center;
     position: relative;
     z-index: 1;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .cover__text:hover {
     background: rgba(0,0,0,0.2);
 }
 
-@media all and (max-width: 320px) {
+/* @media all and (max-width: 767px) {
     .cover__text {
        max-width: 320px;
     }
-  }
+  } */

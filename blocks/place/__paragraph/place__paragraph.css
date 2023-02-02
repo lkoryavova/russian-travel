@@ -1,5 +1,6 @@
 .place__paragraph {
-margin: 0;
+width: auto;
+    margin: 0;
 padding: 0;
 font-style: normal;
 font-weight: 400;
@@ -8,13 +9,13 @@ line-height: 1.63;
 color: #FFFFFF;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
     }
     }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
 .place__paragraph {
     padding: 0 16px;
 }

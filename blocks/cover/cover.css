@@ -1,15 +1,12 @@
 .cover {
     width: 100%;
-    width: auto;
     margin: 0 auto;
     max-width: 1184px;
-    display: grid;
     object-fit: cover;
-    text-decoration: none;
 }
 
-@media all and (max-width: 320px) {
+/* @media all and (max-width: 767px) {
     .cover {
         max-width: 320px;
     }
-} 
+}  */

@@ -1,4 +1,5 @@
 .cover__title {
+    width: auto;
     margin: 0 auto;
     padding: 0;
     padding-bottom: 32px;
@@ -11,18 +12,18 @@
     text-align: center;
     color: #FFFFFF;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 .cover__title:hover {
     color: rgba(0,0,0,0.5);
 }
 
-
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .cover__title {
-        max-width: 250px;
+        /* max-width: 250px; */
         font-size: 32px;
         line-height: 1.09;
-        padding-bottom: 16px;
+        padding: 0 35px 16px;
     }
 }
